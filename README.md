@@ -17,7 +17,7 @@ In our home dir we setup a directory to store our virtual environments, this dir
 ```
 mkdir certbotenv
 cd certbotenv
-virtualenv certbotenv_1
+virtualenv certbotenv_1 --download
 source certbotenv_1/bin/activate
 ```
 You should see that your terminal session is prefixed now with an indicator of the virtualenv:
@@ -32,6 +32,7 @@ pip3 install certbot-dns-ionos
 If python3 or python and pip or pip3 shouldn't matter anymore as they are the same, if your distro is reasonably new. No python2 binaries will exist anymore, at least not in my copy of Debian Bookworm (status 2024).
 ```
 pip3 list
+pip3 list --outdated
 certbot --version
 ```
 It is up-to-date:
