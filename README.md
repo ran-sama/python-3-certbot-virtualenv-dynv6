@@ -6,7 +6,7 @@ https://certbot.eff.org/
 https://virtualenv.pypa.io/en/latest/
 https://www.rust-lang.org/tools/install
 ```
-The scope of this repo will focus on setting up a virtualenv, compiling the Python cryptography package inside it, setting up certbot and a plugin for the DNS and domain provider IONOS with the goal to issue wildcard certs for a domain.
+The scope of this repo will focus on setting up a virtualenv, compiling the Python cryptography package inside it, setting up certbot and a plugin for the DNS and domain provider dynv6 with the goal to issue wildcard certs for a domain.
 
 We will start with dependencies:
 ```
@@ -27,7 +27,6 @@ You should see that your terminal session is prefixed now with an indicator of t
 We can start installing into this virtualenv now without breaking system packages, as virtualizing (rather an isolated container) protects our *NIX OS:
 ```
 pip3 install certbot
-pip3 install certbot-dns-ionos
 ```
 If python3 or python and pip or pip3 shouldn't matter anymore as they are the same, if your distro is reasonably new. No python2 binaries will exist anymore, at least not in my copy of Debian Bookworm (status 2024).
 ```
@@ -37,7 +36,7 @@ certbot --version
 ```
 It is up-to-date:
 ```
-certbot 2.11.0
+certbot 3.0.1
 ```
 We leave the virtualenv:
 ```
