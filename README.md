@@ -28,7 +28,7 @@ We can start installing into this virtualenv now without breaking system package
 ```
 pip3 install certbot
 ```
-If python3 or python and pip or pip3 shouldn't matter anymore as they are the same, if your distro is reasonably new. No python2 binaries will exist anymore, at least not in my copy of Debian Bookworm (status 2024).
+Regularly check if any wheel or package is outdated, so it can be built and upgraded.  
 ```
 pip3 list
 pip3 list --outdated
