@@ -11,7 +11,7 @@ https://certbot.eff.org/
 https://virtualenv.pypa.io/en/latest/
 https://www.rust-lang.org/tools/install
 ```
-The scope of this repo will focus on setting up a virtualenv, compiling the Python cryptography package inside it, setting up certbot and a plugin for the DNS and domain provider dynv6 with the goal to issue wildcard certs for a domain.
+The scope of this repo will focus on setting up a virtualenv, compiling the Python cryptography package inside it, setting up certbot and hooks for the DNS and domain provider dynv6 with the goal to issue wildcard certs for a domain.
 
 We will start with dependencies:
 ```
