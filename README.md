@@ -1,4 +1,5 @@
 # python-3-certbot-virtualenv-dynv6
+ A Python 3 script and bash hooks to get letsencrypt wildcard certs with dynv6 domains and DNS.  
 First issuance okay:  
 ![alt text](https://raw.githubusercontent.com/ran-sama/python-3-certbot-virtualenv-dynv6/refs/heads/master/issuance_successful.png)  
 Renewal okay:  
