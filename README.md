@@ -1,8 +1,8 @@
 # python-3-certbot-virtualenv-dynv6
- A Python 3 script and bash hooks to get letsencrypt wildcard certs with dynv6 domains and DNS.  
-First issuance okay:  
+Certbot virtualenv, bash hooks and python 3 script to issue letsencrypt wildcard certs for dynv6 domains.  
+First issuance nominal:  
 ![alt text](https://raw.githubusercontent.com/ran-sama/python-3-certbot-virtualenv-dynv6/refs/heads/master/issuance_successful.png)  
-Renewal okay:  
+Renewal nominal:  
 ![alt text](https://raw.githubusercontent.com/ran-sama/python-3-certbot-virtualenv-dynv6/refs/heads/master/renew_successful.png)  
 
 Using a Debian headless server is very enjoyable, until you run into the realization how outdated the stable packages are. Luckily if the package is part of the Python Package Index (PyPI) the mitigation for this is almost trivial, refer to these websites:
