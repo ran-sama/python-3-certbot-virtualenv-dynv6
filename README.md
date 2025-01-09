@@ -1,6 +1,8 @@
 # python-3-certbot-virtualenv-dynv6
-
-![alt text](https://raw.githubusercontent.com/ran-sama/python-3-certbot-virtualenv-dynv6/refs/heads/master/issuance_successful.png)
+First issuance okay:  
+![alt text](https://raw.githubusercontent.com/ran-sama/python-3-certbot-virtualenv-dynv6/refs/heads/master/issuance_successful.png)  
+Renewal okay:  
+![alt text](https://raw.githubusercontent.com/ran-sama/python-3-certbot-virtualenv-dynv6/refs/heads/master/renew_successful.png)  
 
 Using a Debian headless server is very enjoyable, until you run into the realization how outdated the stable packages are. Luckily if the package is part of the Python Package Index (PyPI) the mitigation for this is almost trivial, refer to these websites:
 ```
