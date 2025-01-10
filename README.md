@@ -42,7 +42,7 @@ certbot --version
 ```
 It is up-to-date:
 ```
-certbot 3.0.1
+certbot 3.1.0
 ```
 We leave the virtualenv:
 ```
