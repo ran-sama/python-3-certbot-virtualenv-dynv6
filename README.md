@@ -66,8 +66,8 @@ Two A-records for subdomain1.example.com and subdomain2.example.com
 ```
 Notice:
 ```
-Update API not included:
-Main A-record for example.com not included as it is set through the default update API.
+Update API:
+Main A-record for example.com *not* included as it is set through the default update API.
 ```
 
 ## certfox.py
