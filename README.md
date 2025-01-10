@@ -57,6 +57,19 @@ As you see, you have local copies or links to binaries that are isolated from th
 
 Don't pass all parameters in a oneliner as many people suggest. That just brings pain. Static files with your settings are portable across installations and can be easily rsynced if needed.
 
+## zone_records.json
+Example how to populate your dynv6 records for wildcard certs to work.  
+```
+REST API:
+Two CAA records for example.com and *.example.com
+Two A-records for subdomain1.example.com and subdomain2.example.com
+```
+Notice:
+```
+Update API not included:
+Main A-record for example.com not included as it is set through the default update API.
+```
+
 ## certfox.py
 A Python 3 script to renew letsencrypt certs based on when they expire, can be used as helper if you don't like the systemd timer of certbot. Which I particularly did not want to use because the virtualenv is on a very specific path.  
 
