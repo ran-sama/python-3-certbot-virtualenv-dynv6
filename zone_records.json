@@ -1,0 +1,50 @@
+[
+    {
+        "type": "CAA",
+        "name": "",
+        "data": "letsencrypt.org;validationmethods=dns-01",
+        "priority": null,
+        "flags": 128,
+        "tag": "issue",
+        "weight": null,
+        "port": null,
+        "id": 10000000,
+        "zoneID": 8000000
+    },
+    {
+        "type": "CAA",
+        "name": "*",
+        "data": "letsencrypt.org;validationmethods=dns-01",
+        "priority": null,
+        "flags": 128,
+        "tag": "issue",
+        "weight": null,
+        "port": null,
+        "id": 20000000,
+        "zoneID": 8000000
+    },
+    {
+        "type": "A",
+        "name": "subdomain1",
+        "data": "123.45.67.89",
+        "priority": null,
+        "flags": null,
+        "tag": null,
+        "weight": null,
+        "port": null,
+        "id": 30000000,
+        "zoneID": 8000000
+    },
+    {
+        "type": "A",
+        "name": "subdomain2",
+        "data": "123.45.67.89",
+        "priority": null,
+        "flags": null,
+        "tag": null,
+        "weight": null,
+        "port": null,
+        "id": 40000000,
+        "zoneID": 8000000
+    }
+]
