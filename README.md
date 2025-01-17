@@ -55,7 +55,7 @@ That's really all to it! If you don't want to sign-in you can also call it from 
 ```
 As you see, you have local copies or links to binaries that are isolated from the OS itself. It is very elegant and simple once you familiarized yourself with it. If you set-up a ```cli.ini``` for certbot, you can let the certbot inside the virtualenv know how you would like to renew your domain and with what parameters.
 
-Don't pass all parameters in a oneliner as many people suggest. That just brings pain. Static files with your settings are portable across installations and can be easily rsynced if needed.
+Don't pass all parameters in a one-liner as many people suggest. That just brings pain. Static files with your settings are portable across installations and can be easily rsynced if needed.
 
 ## zone_records.json
 Example how to populate your dynv6 records for wildcard certs to work.  
