@@ -1,4 +1,4 @@
-# python-3-certbot-virtualenv-dynv6
+# python3-certbot-virtualenv-dynv6
 Certbot virtualenv, bash hooks and python 3 script to issue letsencrypt wildcard certs for dynv6 domains.  
 First issuance nominal:  
 ![alt text](https://raw.githubusercontent.com/ran-sama/python-3-certbot-virtualenv-dynv6/refs/heads/master/images/issuance_successful.png)  
